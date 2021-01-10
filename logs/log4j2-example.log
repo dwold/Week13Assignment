@@ -1,0 +1,486 @@
+2021-01-09 11:39:45:470  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Starting App on Dagnachews-MacBook-Pro.local with PID 68553 (/Users/dagnachew/eclipse-workspace/inventoryManagement/target/classes started by dagnachew in /Users/dagnachew/eclipse-workspace/inventoryManagement)
+2021-01-09 11:39:45:497  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@668d85fa: startup date [Sat Jan 09 11:39:45 PST 2021]; root of context hierarchy
+2021-01-09 11:39:45:926  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-09 11:39:46:283  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-09 11:39:46:424  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fa386f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:39:46:442  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:39:46:450  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:39:46:452  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:39:46:697  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-09 11:39:46:792  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-09 11:39:46:793  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-09 11:39:46:868  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-09 11:39:46:868  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1374 ms
+2021-01-09 11:39:47:386  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-09 11:39:47:389  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-09 11:39:47:390  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-09 11:39:47:570  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-09 11:39:47:580  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-09 11:39:47:654  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-09 11:39:47:656  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-09 11:39:47:658  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-09 11:39:47:832  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-09 11:39:48:533  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-09 11:39:48:664  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-09 11:39:49:129  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-09 11:39:49:148 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `order` drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2021-01-09 11:39:49:148 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.order' doesn't exist
+2021-01-09 11:39:49:149 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_5uw5nxqovigv7mf1gmbos1rl8
+2021-01-09 11:39:49:149 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-09 11:39:49:151 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product_order` drop foreign key FK_sf5yp37b7qt63qqoq25f82lpu
+2021-01-09 11:39:49:151 ERROR Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_api.product_order' doesn't exist
+2021-01-09 11:39:49:286  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-09 11:39:49:615  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@668d85fa: startup date [Sat Jan 09 11:39:45 PST 2021]; root of context hierarchy
+2021-01-09 11:39:49:668  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-09 11:39:49:669  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.updateOrder(com.dagnachew.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-09 11:39:49:669  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-09 11:39:49:669  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-09 11:39:49:670  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.updateeCustomer(com.dagnachew.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-09 11:39:49:670  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-09 11:39:49:670  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.createCustomer(com.dagnachew.inventoryManagement.entity.Customer)
+2021-01-09 11:39:49:670  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.getProducts()
+2021-01-09 11:39:49:671  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.createProduct(com.dagnachew.inventoryManagement.entity.Product)
+2021-01-09 11:39:49:671  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.updateProduct(com.dagnachew.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-09 11:39:49:672  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-09 11:39:49:673  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-09 11:39:49:674  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-09 11:39:49:691  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 11:39:49:691  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 11:39:49:716  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 11:39:49:822  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-09 11:39:49:844  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-09 11:39:49:850  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-09 11:39:49:866  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-09 11:39:49:881  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-09 11:39:49:883  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Started App in 4.591 seconds (JVM running for 8.54)
+2021-01-09 11:56:09:543  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-09 11:56:09:544  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-09 11:56:09:580  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+2021-01-09 15:26:33:630  WARN Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-3] o.s.w.s.PageNotFound                     : Request method 'POST' not supported
+2021-01-09 15:30:24:501  WARN Dagnachews-MacBook-Pro.local
+			--- [io-8080-exec-10] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2021-01-09 15:31:09:161 ERROR Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] c.d.i.s.OrderService                     : Exception occurred while trying to create new order for customer: 1
+java.lang.NullPointerException
+	at com.dagnachew.inventoryManagement.service.OrderService.calculateOrderTotal(OrderService.java:102) ~[classes/:?]
+	at com.dagnachew.inventoryManagement.service.OrderService.initializeNewOrder(OrderService.java:76) ~[classes/:?]
+	at com.dagnachew.inventoryManagement.service.OrderService.submitNewOrder(OrderService.java:39) [classes/:?]
+	at com.dagnachew.inventoryManagement.controller.OrderController.createCustomer(OrderController.java:28) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1526) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1482) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+2021-01-09 15:31:53:454  INFO Dagnachews-MacBook-Pro.local
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@668d85fa: startup date [Sat Jan 09 11:39:45 PST 2021]; root of context hierarchy
+2021-01-09 15:52:55:279  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Starting App on Dagnachews-MacBook-Pro.local with PID 70166 (/Users/dagnachew/eclipse-workspace/inventoryManagement/target/classes started by dagnachew in /Users/dagnachew/eclipse-workspace/inventoryManagement)
+2021-01-09 15:52:55:308  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@466f9b8f: startup date [Sat Jan 09 15:52:55 PST 2021]; root of context hierarchy
+2021-01-09 15:52:55:766  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-09 15:52:56:100  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-09 15:52:56:246  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41c0cfcd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:52:56:268  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:52:56:277  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:52:56:281  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:52:56:696  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-09 15:52:56:815  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-09 15:52:56:816  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-09 15:52:56:906  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-09 15:52:56:906  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1601 ms
+2021-01-09 15:52:57:422  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-09 15:52:57:426  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-09 15:52:57:426  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-09 15:52:57:635  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-09 15:52:57:645  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-09 15:52:57:737  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-09 15:52:57:739  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-09 15:52:57:741  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-09 15:52:57:936  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-09 15:52:58:733  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-09 15:52:58:883  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-09 15:52:59:199  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000228: Running hbm2ddl schema update
+2021-01-09 15:52:59:199  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000102: Fetching database metadata
+2021-01-09 15:52:59:201  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000396: Updating schema
+2021-01-09 15:52:59:287  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.address
+2021-01-09 15:52:59:288  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [zip, city, street, id, state]
+2021-01-09 15:52:59:288  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2021-01-09 15:52:59:288  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2021-01-09 15:52:59:302  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.customer
+2021-01-09 15:52:59:302  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [level, last_name, id, first_name]
+2021-01-09 15:52:59:302  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2021-01-09 15:52:59:302  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2021-01-09 15:52:59:314  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.order
+2021-01-09 15:52:59:315  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [ordered, delivered, id, estimated_delivery, customer_id, invoice_amount, status]
+2021-01-09 15:52:59:315  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_m6q2ofkj1g5aobtb2p00ajpqg]
+2021-01-09 15:52:59:315  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_m6q2ofkj1g5aobtb2p00ajpqg, primary]
+2021-01-09 15:52:59:336  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.product_order
+2021-01-09 15:52:59:336  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [product_id, order_id]
+2021-01-09 15:52:59:336  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_5uw5nxqovigv7mf1gmbos1rl8, fk_sf5yp37b7qt63qqoq25f82lpu]
+2021-01-09 15:52:59:336  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_5uw5nxqovigv7mf1gmbos1rl8, primary]
+2021-01-09 15:52:59:350  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_api.product
+2021-01-09 15:52:59:351  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [price, name, description, id]
+2021-01-09 15:52:59:351  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2021-01-09 15:52:59:351  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2021-01-09 15:52:59:352  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000232: Schema update complete
+2021-01-09 15:52:59:907  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@466f9b8f: startup date [Sat Jan 09 15:52:55 PST 2021]; root of context hierarchy
+2021-01-09 15:52:59:969  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-09 15:52:59:970  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.updateOrder(com.dagnachew.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-09 15:52:59:971  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-09 15:52:59:971  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-09 15:52:59:971  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.updateeCustomer(com.dagnachew.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-09 15:52:59:972  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-09 15:52:59:972  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.createCustomer(com.dagnachew.inventoryManagement.entity.Customer)
+2021-01-09 15:52:59:973  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.getProducts()
+2021-01-09 15:52:59:973  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.createProduct(com.dagnachew.inventoryManagement.entity.Product)
+2021-01-09 15:52:59:973  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.updateProduct(com.dagnachew.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-09 15:52:59:974  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-09 15:52:59:975  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-09 15:52:59:975  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-09 15:53:00:002  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 15:53:00:002  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 15:53:00:036  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 15:53:00:163  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-09 15:53:00:192  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-09 15:53:00:199  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-09 15:53:00:216  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-09 15:53:00:234  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-09 15:53:00:236  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Started App in 5.128 seconds (JVM running for 8.399)
+2021-01-09 15:53:14:607  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-09 15:53:14:607  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-09 15:53:14:635  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2021-01-09 15:53:15:022 ERROR Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] c.d.i.s.OrderService                     : Exception occurred while trying to create new order for customer: 1
+java.lang.NullPointerException
+	at com.dagnachew.inventoryManagement.service.OrderService.calculateOrderTotal(OrderService.java:102) ~[classes/:?]
+	at com.dagnachew.inventoryManagement.service.OrderService.initializeNewOrder(OrderService.java:76) ~[classes/:?]
+	at com.dagnachew.inventoryManagement.service.OrderService.submitNewOrder(OrderService.java:39) [classes/:?]
+	at com.dagnachew.inventoryManagement.controller.OrderController.createCustomer(OrderController.java:28) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_271]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843) [spring-webmvc-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.1.7.RELEASE.jar:4.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1526) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1482) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.26.jar:8.0.26]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_271]
+2021-01-09 16:57:56:809  INFO Dagnachews-MacBook-Pro.local
+			--- [       Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@466f9b8f: startup date [Sat Jan 09 15:52:55 PST 2021]; root of context hierarchy
+2021-01-09 18:12:01:357  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Starting App on Dagnachews-MacBook-Pro.local with PID 71510 (/Users/dagnachew/eclipse-workspace/inventoryManagement/target/classes started by dagnachew in /Users/dagnachew/eclipse-workspace/inventoryManagement)
+2021-01-09 18:12:01:382  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@696d96de: startup date [Sat Jan 09 18:12:01 PST 2021]; root of context hierarchy
+2021-01-09 18:12:01:808  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-01-09 18:12:02:130  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-01-09 18:12:02:262  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b3a8a8f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 18:12:02:281  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 18:12:02:289  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 18:12:02:292  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 18:12:02:638  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-01-09 18:12:02:745  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-01-09 18:12:02:746  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-01-09 18:12:02:824  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-01-09 18:12:02:825  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1446 ms
+2021-01-09 18:12:03:283  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-01-09 18:12:03:286  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-01-09 18:12:03:287  INFO Dagnachews-MacBook-Pro.local
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-01-09 18:12:03:486  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-01-09 18:12:03:496  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-01-09 18:12:03:576  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-01-09 18:12:03:578  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-01-09 18:12:03:580  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-01-09 18:12:03:772  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-01-09 18:12:04:566  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-09 18:12:04:719  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-01-09 18:12:05:020  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-01-09 18:12:05:222  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-01-09 18:12:05:726  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@696d96de: startup date [Sat Jan 09 18:12:01 PST 2021]; root of context hierarchy
+2021-01-09 18:12:05:779  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2021-01-09 18:12:05:779  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.OrderController.updateOrder(com.dagnachew.inventoryManagement.entity.Order,java.lang.Long)
+2021-01-09 18:12:05:780  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.createCustomer(com.dagnachew.inventoryManagement.entity.Customer)
+2021-01-09 18:12:05:780  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2021-01-09 18:12:05:780  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.getCustomers()
+2021-01-09 18:12:05:781  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.updateCustomer(com.dagnachew.inventoryManagement.entity.Customer,java.lang.Long)
+2021-01-09 18:12:05:781  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2021-01-09 18:12:05:781  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.getProducts()
+2021-01-09 18:12:05:781  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.createProduct(com.dagnachew.inventoryManagement.entity.Product)
+2021-01-09 18:12:05:782  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.updateProduct(com.dagnachew.inventoryManagement.entity.Product,java.lang.Long)
+2021-01-09 18:12:05:782  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.dagnachew.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2021-01-09 18:12:05:783  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-09 18:12:05:783  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-01-09 18:12:05:803  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 18:12:05:803  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 18:12:05:834  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-09 18:12:05:943  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-01-09 18:12:05:965  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-09 18:12:05:970  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-01-09 18:12:05:987  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-01-09 18:12:06:000  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-01-09 18:12:06:003  INFO Dagnachews-MacBook-Pro.local
+			--- [ment.App.main()] c.d.i.App                                : Started App in 4.832 seconds (JVM running for 8.178)
+2021-01-09 18:25:51:737  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-01-09 18:25:51:740  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-01-09 18:25:51:771  INFO Dagnachews-MacBook-Pro.local
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
